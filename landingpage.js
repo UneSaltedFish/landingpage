@@ -18,8 +18,13 @@ function right1(){
   document.getElementById("right1").style.opacity=0;
   document.getElementById("right2").style.opacity=0;
 }
+function bottom2(){
+  document.getElementById("bottom").src = "bottom2.png";
+  document.getElementById("bottomtext").style.opacity=1;
 
-//document.getElementById("circle").src = "backgroundPic.png";
-//document.getElementById("circle").src = "backgroundPic.png";
-//document.getElementById("circle").src = "backgroundPic.png";
-//document.getElementById("circle").src = "backgroundPic.png";
+}
+function bottom1(){
+  document.getElementById("bottom").src = "bottom.png";
+  document.getElementById("bottomtext").style.opacity=0;
+
+}
