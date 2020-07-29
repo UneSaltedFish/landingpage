@@ -1,27 +1,31 @@
 
 body{
-  background-color: black;
+  background-color: white;
 }
 img{
   padding: 0px;
   transition: transform .2s;
 }
 
-h1 {
-  color: navy;
-  margin-left: auto;
-  margin-right: auto;
-  width:600px;
-}
 a{
   color:black;
   text-decoration: none;
+}
+pre{
+  font-family: "Arial black", sans-serif;
+  font-size: 25px;
+}
+.text1{
+  font-family: "Arial black", sans-serif;
+}
+.text2{
+  font-family: "Arial black", sans-serif;
+  font-size: 15px;
 }
 .container{
   position:relative;
   margin-left:15%;
   background-color: black;
-  max-width:50px;
 
 }
 .circle{
@@ -68,7 +72,7 @@ a{
   z-index: 10;
   position: absolute;
   left:850px;
-  top:150px;
+  top:163px;
   opacity: 0;
 }
 #right2{
@@ -78,7 +82,13 @@ a{
   top:350px;
   opacity: 0;
 }
-.text{
-  font-family: "Arial Rounded MT Bold", sans-serif;
-  font-size: 30px;
+.bottomCon {
+  position: relative;
+}
+#bottomtext{
+  z-index: 10;
+  position: absolute;
+  left:520px;
+  top:550px;
+  opacity: 0;
 }
