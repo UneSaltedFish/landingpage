@@ -1,6 +1,8 @@
 
 
-
+if(performance.navigation.type == 2){
+   location.reload(true);
+}
 
 function circle2(){
   document.getElementById("circle").src = "pictures/circle1.png";
