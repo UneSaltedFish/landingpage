@@ -20,7 +20,7 @@ select {
   -moz-appearance: none;
   /* for Chrome */
   -webkit-appearance: none;
-  color: #992600;
+  color: #FFFF00;
   background-color: transparent;
   border-color: transparent;
   cursor: pointer;
@@ -29,7 +29,7 @@ select {
 select option {
   margin: 40px;
   background: black;
-  color: #992600;
+  color: #FFFF00;
   border-color: black;
   font-size: 13pt;
 }
@@ -50,58 +50,55 @@ a:hover {
   color: blue;
 }
 .container{
+  display block;
   position:relative;
-  margin-left:15%;
+  width: 700px;
+  height:700px;
+  margin:auto;
   background-color: black;
 }
 
 
 .circle{
   position:absolute;
-  left:480px;
+  left:160px;
   top: 107px;
 }
 
 .above{
   position: absolute;
+  left:117px;
   top:10px;
-  left:437px;
 }
 .left{
   position: absolute;
-  left:337px;
+  left:17px;
   top:109px;
 }
 .right{
   position: absolute;
-  left:813px;
+  left:493px;
   top:109px;
 }
 .bottom{
   position: absolute;
+  left:117px;
   top:485px;
-  left:437px;
-}
-.footer{
-  position:absolute;
-  top:700px;
-  left:300px;
 }
 .rightCon {
-  position: absolute;
-  color: white;
+  position: relative;
 }
 #right1{
   z-index: 10;
   position: absolute;
-  left:850px;
+  left:533px;
   top:163px;
   opacity: 0;
 }
 #right2{
   z-index: 10;
   position: absolute;
-  left:853px;
+  left:535px;
   top:350px;
   opacity: 0;
 }
@@ -111,12 +108,34 @@ a:hover {
 #bottomtext{
   z-index: 10;
   position: absolute;
-  left:520px;
+  left:200px;
   top:545px;
   opacity: 0;
 }
+
+#biggest{
+  font-size: 45px;
+  line-height: 1.0;
+}
+#second{
+  font-size: 25px;
+  line-height: 1.4;
+}
+#last{
+  font-size: 12px;
+  font-family: Arial;
+}
 .lastLine{
-  position: absolute;
-  top:920px;
-  left:400px;
+  margin:auto;
+  padding-left:95px;
+  padding-top: 2px;
+  background-color: black;
+  width:1300px;
+}
+.under{
+  display: block;
+  margin: auto;
+  padding-left: 95px;
+  width:1200px;
+  hight:5px;
 }
