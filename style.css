@@ -126,8 +126,9 @@ a:hover {
   font-family: Arial;
 }
 .lastLine{
+  display: block;
   margin:auto;
-  padding-left:95px;
+  padding-left:205px;
   padding-top: 2px;
   background-color: black;
   width:1300px;
@@ -135,7 +136,10 @@ a:hover {
 .under{
   display: block;
   margin: auto;
-  padding-left: 95px;
-  width:1200px;
+  padding-left:110px;
+  width:300px;
   hight:5px;
+}
+.asterisk{
+  font-size:17pt
 }
